@@ -7,11 +7,8 @@ import java.nio.file.Paths;
 public class FileExits {
     public static void main(String[] args) {
         
-        Path filePath = Paths.get("C:\\Users\\Simon\\Desktop\\newfile.txt");
+         Path filePath = Paths.get("C:\\Users\\karthik\\Desktop\\newfile.txt");
 
-        // Check if the file exists
-        boolean fileExists = Files.exists(filePath);
-
-        System.out.println("File exists: " + fileExists);
+        System.out.println("File exists: " + Files.exists(filePath);
     }
 }
